@@ -53,7 +53,8 @@ int main() {
     
     for (int i = 0; i < n; i++) {
         for (int j = 0; j < n; j++) {
-            cout << "Amount person " << i << " paid to person " << j << ": ";
+            cout << "Amount to be paid by Person " << i 
+                 << " to Person " << j << ": ";
             cin >> transactions[i][j];
         }
     }
@@ -78,3 +79,4 @@ int main() {
 
     return 0;
 }
+
